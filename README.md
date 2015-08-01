@@ -5,9 +5,27 @@ JavaQ
 
 <b><i>Java DSL for SQL</i></b>
 
+Add javaq to your project
+-------
+
+Repository
+
+    <repository>
+	    <id>jitpack.io</id>
+	    <url>https://jitpack.io</url>
+	</repository>
+
+Dependency
+
+	<dependency>
+	    <groupId>com.github.vivekmittal</groupId>
+	    <artifactId>javaq</artifactId>
+	    <version>v1.0.0</version>
+	</dependency>
+
 Using JavaQ
 -------
-Include the library in your classpath and import static com.javaq.JavaQ.select   
+import static com.javaq.JavaQ.select;
 
 <b>Select All</b>
 <pre>
