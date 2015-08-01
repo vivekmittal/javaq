@@ -16,8 +16,8 @@ public class Select implements JavaQContext {
         this.columns = Arrays.asList(columns);
     }
 
-    public From from(String...table) {
-        return new From(this, table);
+    public From from(String...tables) {
+        return new From(this, tables);
     }
 
     @Override

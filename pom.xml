@@ -4,9 +4,35 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>javaq</groupId>
+    <groupId>com.javaq</groupId>
     <artifactId>javaq</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
+
+    <issueManagement>
+        <url>https://github.com/vivekmittal/javaq/issues</url>
+        <system>GitHub Issues</system>
+    </issueManagement>
+
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>http://www.opensource.org/licenses/mit-license.php</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <scm>
+        <url>https://github.com/vivekmittal/javaq</url>
+    </scm>
+
+    <developers>
+        <developer>
+            <email>vmittal69@gmail.com</email>
+            <name>Vivek Mittal</name>
+            <url>https://github.com/vivekmittal</url>
+            <id>vivekmittal</id>
+        </developer>
+    </developers>
 
     <build>
         <plugins>
