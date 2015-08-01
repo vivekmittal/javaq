@@ -95,17 +95,17 @@ import static com.javaq.JavaQ.select;
 
 <b>Group By</b>
 <pre>
-    select("NAME", "COUNT(\*)").from("EMPLOYEE")
+    select("NAME", "COUNT(*)").from("EMPLOYEE")
         .groupBy("NAME")
-        .orderBy("COUNT(\*)", ASC)
+        .orderBy("COUNT(*)", ASC)
         .sql()
 </pre>
 
 <b>Limit</b>
 <pre>
-    select("NAME", "COUNT(\*)").from("EMPLOYEE")
+    select("NAME", "COUNT(*)").from("EMPLOYEE")
           .groupBy("NAME")
-          .orderBy("COUNT(\*)", ASC)
+          .orderBy("COUNT(*)", ASC)
           .limit(10)
           .sql()
 </pre>
