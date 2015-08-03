@@ -6,6 +6,8 @@ JavaQ
 
 <b><i>Java DSL for SQL</i></b>
 
+JavaQ takes care of building the sql query for you, rescuing you from the pain of remembering syntax for different dialects. With Java's static typing, JavaQ reduces the chances of making structural mistakes in the query.
+
 Add javaq to your project
 -------
 
@@ -110,9 +112,21 @@ import static com.javaq.JavaQ.select;
           .sql()
 </pre>
 
+What's next?
+-------
+- Generate queries for different SQL Dialects
+- Integrate with JDBC APIs
+- Generate update queries
+
 CONTRIBUTING
 -------
-Feel free to raise any issues or PR
+Interested in contributing to JavaQ ? Here are some ways you can do that
+- Raise issues/bugs
+- Update documentation
+- Contribute in open issues/improvements/features
+- Any new ideas
+
+Feel free to raise pull requests :)
 
 LICENSE
 -------
