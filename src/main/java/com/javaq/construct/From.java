@@ -10,7 +10,7 @@ import java.util.List;
 import static java.util.stream.Collectors.joining;
 
 /**
- * @author Vivek Mittal <vivek.mittal@flipkart.com>
+ * @author Vivek Mittal
  */
 public class From implements Joinable, Whereable, Conditionable {
     private final List<String> tables;

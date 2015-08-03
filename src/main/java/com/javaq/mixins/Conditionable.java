@@ -4,7 +4,7 @@ import com.javaq.construct.Or;
 import com.javaq.construct.And;
 
 /**
- * @author Vivek Mittal <vivek.mittal@flipkart.com>
+ * @author Vivek Mittal
  */
 public interface Conditionable extends JavaQContext, Orderable, Groupable, Limitable {
     public default And and(String condition) {

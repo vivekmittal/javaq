@@ -1,7 +1,7 @@
 package com.javaq.mixins;
 
 /**
- * @author Vivek Mittal <vivek.mittal@flipkart.com>
+ * @author Vivek Mittal
  */
 public interface JavaQContext {
     public String sql();

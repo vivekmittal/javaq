@@ -1,7 +1,7 @@
 package com.javaq.construct;
 
 /**
- * @author Vivek Mittal <vivek.mittal@flipkart.com>
+ * @author Vivek Mittal
  */
 public enum JoinType {
     INNER_JOIN("INNER JOIN"),

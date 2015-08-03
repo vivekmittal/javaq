@@ -3,7 +3,7 @@ package com.javaq;
 import com.javaq.construct.Select;
 
 /**
- * @author Vivek Mittal <vivek.mittal@flipkart.com>
+ * @author Vivek Mittal
  */
 public class JavaQ {
     public static Select select(String... columns) {

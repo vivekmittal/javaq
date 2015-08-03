@@ -8,7 +8,7 @@ import java.util.List;
 import static java.util.stream.Collectors.joining;
 
 /**
- * @author Vivek Mittal <vivek.mittal@flipkart.com>
+ * @author Vivek Mittal
  */
 public class InValues implements Conditionable {
     private final List<String> values;

@@ -5,7 +5,7 @@ import com.javaq.mixins.Limitable;
 import com.javaq.mixins.Orderable;
 
 /**
- * @author Vivek Mittal <vivek.mittal@flipkart.com>
+ * @author Vivek Mittal
  */
 public class OrderBy implements Limitable {
     private final JavaQContext context;

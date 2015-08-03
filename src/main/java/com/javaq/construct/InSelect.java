@@ -4,7 +4,7 @@ import com.javaq.mixins.Conditionable;
 import com.javaq.mixins.JavaQContext;
 
 /**
- * @author Vivek Mittal <vivek.mittal@flipkart.com>
+ * @author Vivek Mittal
  */
 public class InSelect implements Conditionable {
     private final JavaQContext condition;

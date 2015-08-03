@@ -5,7 +5,7 @@ import com.javaq.mixins.JavaQContext;
 import com.javaq.mixins.InClauseable;
 
 /**
- * @author Vivek Mittal <vivek.mittal@flipkart.com>
+ * @author Vivek Mittal
  */
 public class Or implements InClauseable {
     private final String condition;

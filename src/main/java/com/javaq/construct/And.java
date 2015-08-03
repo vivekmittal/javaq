@@ -4,7 +4,7 @@ import com.javaq.mixins.InClauseable;
 import com.javaq.mixins.JavaQContext;
 
 /**
- * @author Vivek Mittal <vivek.mittal@flipkart.com>
+ * @author Vivek Mittal
  */
 public class And implements InClauseable {
     private final JavaQContext context;

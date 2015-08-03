@@ -5,7 +5,7 @@ import com.javaq.construct.InValues;
 import com.javaq.construct.Like;
 
 /**
- * @author Vivek Mittal <vivek.mittal@flipkart.com>
+ * @author Vivek Mittal
  */
 public interface InClauseable extends Conditionable {
     public default Conditionable in(JavaQContext select) {

@@ -3,7 +3,7 @@ package com.javaq.mixins;
 import com.javaq.construct.Limit;
 
 /**
- * @author Vivek Mittal <vivek.mittal@flipkart.com>
+ * @author Vivek Mittal
  */
 public interface Limitable extends JavaQContext{
     public default Limit limit(int limit) {

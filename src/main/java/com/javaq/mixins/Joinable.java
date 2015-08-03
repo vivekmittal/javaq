@@ -6,7 +6,7 @@ import static com.javaq.construct.JoinType.INNER_JOIN;
 import static com.javaq.construct.JoinType.LEFT_JOIN;
 
 /**
- * @author Vivek Mittal <vivek.mittal@flipkart.com>
+ * @author Vivek Mittal
  */
 public interface Joinable extends JavaQContext {
     public default JoinTable join(String... tables) {

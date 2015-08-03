@@ -3,7 +3,7 @@ package com.javaq.mixins;
 import com.javaq.construct.OrderBy;
 
 /**
- * @author Vivek Mittal <vivek.mittal@flipkart.com>
+ * @author Vivek Mittal
  */
 public interface Orderable extends JavaQContext {
     public enum Order {

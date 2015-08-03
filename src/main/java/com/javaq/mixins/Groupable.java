@@ -3,7 +3,7 @@ package com.javaq.mixins;
 import com.javaq.construct.GroupBy;
 
 /**
- * @author Vivek Mittal <vivek.mittal@flipkart.com>
+ * @author Vivek Mittal
  */
 public interface Groupable extends JavaQContext {
     public default GroupBy groupBy(String variable) {

@@ -5,7 +5,7 @@ import com.javaq.mixins.Whereable;
 import com.javaq.mixins.JavaQContext;
 
 /**
- * @author Vivek Mittal <vivek.mittal@flipkart.com>
+ * @author Vivek Mittal
  */
 public class On implements Joinable, Whereable {
     private final JavaQContext context;
